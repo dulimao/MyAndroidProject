@@ -170,3 +170,9 @@
     -- 线程池，缓存，handler，生命周期状态控制
 33、Picasso:
     -- width():构建Picasso,利用单例模式创建Picasso,并决定下载策略，利用反射寻找当前项目是否集成Okhttp,如果没有则利用HttpUrlConnection下载
+34、APP启动流程：参考源码
+    -- 1:ActivityThread--> public static void main(String[] args)
+    -- 2:ServiceManager注册和获取ACTIVITY_SERVICE
+35、面向切面编程AOP：AOP就是把涉及到众多模块的某一类问题进行统一管理
+    -- 意义：解耦
+    -- 框架：AspectJ
